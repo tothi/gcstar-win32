@@ -4,7 +4,7 @@
 
 [project](https://gna.org/projects/gcstar) is hosted on [Gna!](https://gna.org)
 
-current version (at the time of writing) is 1.7.1
+current version (at the time of writing) is [1.7.1](http://download.gna.org/gcstar/gcstar-1.7.1.tar.gz)
 
 win32 full-featured installer is available up to [1.6.1](http://download.gna.org/gcstar/win32/GCstar_1.6.1_Setup.exe)
 
@@ -115,7 +115,8 @@ pp -o gcstar.exe -g -B ^
   gcstar
 ```
 
---> gcstar.exe standalone executable is almost ready.
+--> gcstar.exe standalone executable (which means it does not
+require Perl + GTK) is almost ready.
 
 changing the icon and updating version info with this perl script:
 ```perl
@@ -138,6 +139,9 @@ TODO: find a way to update icon and version info.
 the resulting win32 (x64) binary is available in the repo for download:
 
 [gcstar-1.7.1.exe](./gcstar-1.7.1.exe)
+
+the binary depends on the [1.7.1 release tarball](http://download.gna.org/gcstar/gcstar-1.7.1.tar.gz) and
+must be placed in `gcstar/bin` folder.
 
 the binary has been assembled using:
 * Windows 7 Professional x64
