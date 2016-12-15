@@ -41,7 +41,7 @@ ppm install http://www.sisyphusion.tk/ppm/Gtk2.ppd
 ```
 perl gcstar\bin\gcstar
 ```
-or create shortcut and in properties prepend C:\Strawberry\perl\bin\perl.exe in target field.
+or create shortcut and in properties prepend `C:\Strawberry\perl\bin\perl.exe` in target field.
 
 ### optional requirements (extra perl modules for full functionality):
 
@@ -60,7 +60,7 @@ cpan install Net::FreeDB
 cpan install Ogg::Vorbis::Header::PurePerl
 ```
 
-unfortunately the last two install cmd failed (probably not compatible with the installed Perl version).
+unfortunately the last two install cmds failed (probably not compatible with the installed Perl version).
 
 ### packaging GCstar as a standalone exe
 
@@ -137,7 +137,7 @@ TODO: find a way to update icon and version info.
 
 the resulting win32 (x64) binary is available in the repo for download:
 
-[./gcstar-1.7.1.exe]
+[gcstar-1.7.1.exe](./gcstar-1.7.1.exe)
 
 the binary has been assembled using:
 * Windows 7 Professional x64
