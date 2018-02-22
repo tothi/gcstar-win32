@@ -2,11 +2,11 @@
 
 [GCstar homepage](http://www.gcstar.org/index.en.php)
 
-[project](https://gna.org/projects/gcstar) is hosted on [Gna!](https://gna.org)
+[project](https://gna.org/projects/gcstar) is hosted on [GitLab](https://gitlab.com/Kerenoc/GCstar/tree/Test)
 
-current version (at the time of writing) is [1.7.1](http://download.gna.org/gcstar/gcstar-1.7.1.tar.gz)
+current version  is in the [Test branch](https://gitlab.com/Kerenoc/GCstar/repository/Test/archive.tar.gz)
 
-win32 full-featured installer is available up to [1.6.1](http://download.gna.org/gcstar/win32/GCstar_1.6.1_Setup.exe)
+win32 full-featured installer are not available anymore :-(
 
 requirements for running without the bundle installer:
 
@@ -34,7 +34,7 @@ ppm install http://www.sisyphusion.tk/ppm/Gtk2.ppd
 
 ### installing GCstar
 
-1. get latest release (1.7.1 at the time of writing): http://download.gna.org/gcstar/gcstar-1.7.1.tar.gz
+1. get latest release (1.7.1 at the time of writing): https://gitlab.com/Kerenoc/GCstar/repository/Test/archive.tar.gz
 2. unpack tarball: `tar xzvf gcstar-1.7.1.tar.gz`
 (for tar and others using [Cygwin](https://www.cygwin.com/) is recommended)
 3. run perl app by cmdline:
@@ -136,11 +136,11 @@ archive management) seems to be broken. the output exe is corrupted.
 
 TODO: find a way to update icon and version info.
 
-the resulting win32 (x64) binary is available in the repo for download:
+A resulting win32 (x64) binary for version 1.7.1 (09/0/2016) is available in the repo for download:
 
 [gcstar-1.7.1.exe](./gcstar-1.7.1.exe)
 
-the binary depends on the [1.7.1 release tarball](http://download.gna.org/gcstar/gcstar-1.7.1.tar.gz) and
+the binary depends on the outdated [1.7.1 release tarball](http://download.gna.org/gcstar/gcstar-1.7.1.tar.gz) and
 must be placed in `gcstar/bin` folder.
 
 the binary has been assembled using:
